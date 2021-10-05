@@ -29,7 +29,22 @@ set(CMAKE_CXX_STANDARD 14)
 
 #add_executable(TemplateArray TemplateArray/fArray.hpp TemplateArray/fArray_Main.cpp)
 
-# STL
-#add_executable(STL STL/STL_Vector_Preview.cpp)
-#add_executable(STL STL/STL_Vector_DefineData.cpp)
-add_executable(STL STL/STL_vector_Nested.cpp)
+# STL Base
+#add_executable(STL STL/STL_Base/STL_Vector_Preview.cpp)
+#add_executable(STL STL/STL_Base//STL_Vector_DefineData.cpp)
+#add_executable(STL STL/STL_Base/STL_vector_Nested.cpp)
+
+# STL String
+#add_executable(STL STL/STL_String/STL_String_Constructor.cpp)
+#add_executable(STL STL/STL_String/STL_String_Assignment.cpp)
+#add_executable(STL STL/STL_String/STL_String_Splicing.cpp)
+#add_executable(STL STL/STL_String/STL_String_Find.cpp)
+#add_executable(STL STL/STL_String/STL_String_Compare.cpp)
+#add_executable(STL STL/STL_String/STL_String_Access.cpp)
+#add_executable(STL STL/STL_String/STL_String_InsertAndDelete.cpp)
+#add_executable(STL STL/STL_String/STL_String_SubString.cpp)
+
+# STL Vector
+#add_executable(STL STL/STL_Vector/STL_Vector_Constructor.cpp)
+#add_executable(STL STL/STL_Vector/STL_Vector_Assignment.cpp)
+add_executable(STL STL/STL_Vector/STL_Vector_SizeAndCapacity.cpp)

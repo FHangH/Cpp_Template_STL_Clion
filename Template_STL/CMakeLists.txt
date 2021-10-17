@@ -51,4 +51,12 @@ set(CMAKE_CXX_STANDARD 14)
 #add_executable(STL STL/STL_Vector/STL_Vector_InsertAndDelete.cpp)
 #add_executable(STL STL/STL_Vector/STL_Vector_Access.cpp)
 #add_executable(STL STL/STL_Vector/STL_Vector_SwapVector.cpp)
-add_executable(STL STL/STL_Vector/STL_Vector_Reserve.cpp)
+#add_executable(STL STL/STL_Vector/STL_Vector_Reserve.cpp)
+
+#STL_Deque
+#add_executable(STL STL/STL_Deque/STL_Deque_Construct.cpp)
+#add_executable(STL STL/STL_Deque/STL_Deque_Assignment.cpp)
+#add_executable(STL STL/STL_Deque/STL_Deque_Size.cpp)
+#add_executable(STL STL/STL_Deque/STL_Deque_InsertAndDelete.cpp)
+#add_executable(STL STL/STL_Deque/STL_Deque_Access.cpp)
+add_executable(STL STL/STL_Deque/STL_Deque_Sort.cpp)

@@ -59,4 +59,22 @@ set(CMAKE_CXX_STANDARD 14)
 #add_executable(STL STL/STL_Deque/STL_Deque_Size.cpp)
 #add_executable(STL STL/STL_Deque/STL_Deque_InsertAndDelete.cpp)
 #add_executable(STL STL/STL_Deque/STL_Deque_Access.cpp)
-add_executable(STL STL/STL_Deque/STL_Deque_Sort.cpp)
+#add_executable(STL STL/STL_Deque/STL_Deque_Sort.cpp)
+
+#STL_Example
+#add_executable(STL STL/STL_Example/STL_Score.cpp)
+add_executable(STL STL/STL_Example/STL_SortByAgeAndHeight.cpp)
+
+#STL_Stack
+#add_executable(STL STL/STL_Stack/STL_Stack_Demo.cpp)
+
+#STL_Queue
+#add_executable(STL STL/STL_Queue/STL_Queue_Demo.cpp)
+
+#STL_List
+#add_executable(STL STL/STL_List/STL_List_Constructor.cpp)
+#add_executable(STL STL/STL_List/STL_List_AssignmentAndSwap.cpp)
+#add_executable(STL STL/STL_List/STL_List_Size.cpp)
+#add_executable(STL STL/STL_List/STL_List_InsertAndDelete.cpp)
+#add_executable(STL STL/STL_List/STL_List_Access.cpp)
+#add_executable(STL STL/STL_List/STL_List_ReverseAndSort.cpp)

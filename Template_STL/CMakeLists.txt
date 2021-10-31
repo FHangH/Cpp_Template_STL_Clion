@@ -63,7 +63,7 @@ set(CMAKE_CXX_STANDARD 14)
 
 #STL_Example
 #add_executable(STL STL/STL_Example/STL_Score.cpp)
-add_executable(STL STL/STL_Example/STL_SortByAgeAndHeight.cpp)
+#add_executable(STL STL/STL_Example/STL_SortByAgeAndHeight.cpp)
 
 #STL_Stack
 #add_executable(STL STL/STL_Stack/STL_Stack_Demo.cpp)
@@ -78,3 +78,16 @@ add_executable(STL STL/STL_Example/STL_SortByAgeAndHeight.cpp)
 #add_executable(STL STL/STL_List/STL_List_InsertAndDelete.cpp)
 #add_executable(STL STL/STL_List/STL_List_Access.cpp)
 #add_executable(STL STL/STL_List/STL_List_ReverseAndSort.cpp)
+
+#STL_Set
+#add_executable(STL STL/STL_Set/STL_Set_ConstructorAndAssigment.cpp)
+#add_executable(STL STL/STL_Set/STL_Set_SizeAndSwap.cpp)
+#add_executable(STL STL/STL_Set/STL_Set_InsertAndDelete.cpp)
+#add_executable(STL STL/STL_Set/STL_Set_FindAndCount.cpp)
+#add_executable(STL STL/STL_Set/STL_Set_DifferentWithMultiset.cpp)
+#add_executable(STL STL/STL_Set/STL_Set_MakePair.cpp)
+#add_executable(STL STL/STL_Set/STL_Set_DefineSort.cpp)
+#add_executable(STL STL/STL_Set/STL_Set_DefineDataSort.cpp)
+
+#STL_Map
+add_executable(STL STL/STL_Map/STL_Map_ConstructorAndAssignment.cpp)

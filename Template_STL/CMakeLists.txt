@@ -64,6 +64,7 @@ set(CMAKE_CXX_STANDARD 14)
 #STL_Example
 #add_executable(STL STL/STL_Example/STL_Score.cpp)
 #add_executable(STL STL/STL_Example/STL_SortByAgeAndHeight.cpp)
+add_executable(STL STL/STL_Example/STL_StaffAssignment.cpp)
 
 #STL_Stack
 #add_executable(STL STL/STL_Stack/STL_Stack_Demo.cpp)
@@ -90,4 +91,8 @@ set(CMAKE_CXX_STANDARD 14)
 #add_executable(STL STL/STL_Set/STL_Set_DefineDataSort.cpp)
 
 #STL_Map
-add_executable(STL STL/STL_Map/STL_Map_ConstructorAndAssignment.cpp)
+#add_executable(STL STL/STL_Map/STL_Map_ConstructorAndAssignment.cpp)
+#add_executable(STL STL/STL_Map/STL_Map_SizeAndSwap.cpp)
+#add_executable(STL STL/STL_Map/STL_Map_InsertAndDelete.cpp)
+#add_executable(STL STL/STL_Map/STL_Map_FindAndCount.cpp)
+#add_executable(STL STL/STL_Map/STL_Map_Sort.cpp)
